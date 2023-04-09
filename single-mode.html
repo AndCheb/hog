@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/index.game.css">
+  <script src="./src/js/app.single-mode.js" defer></script>
+  <title>Hog</title>
+</head>
+<body class="page">
+  <div class="page__wrap">
+    <div class="page__content">
+
+      <!--? HEADER  -->
+
+      <div class="header">
+        <div class="header__container">
+          <button class="button header__button" type="button">Новая игра</button>
+        </div>
+      </div>
+
+      <!--? MAIN  -->
+
+      <div class="main page__main">
+        <div class="main__container">
+
+          <div class="main__box-img">
+            <img class="main__img" src="./src/img/dice/dices.svg" alt="" width="150" height="150">
+          </div>
+
+          <div class="main__game-block">
+
+            <div class="main__player-1">
+              <h4 class="main__title">Игрок 1</h4>
+              <span class="main__info">Всего очков: <span class="main__total-score-1">0</span></span>
+              <span class="main__info">За ход: <span class="main__current-score-1">0</span></span>
+            </div>
+
+            <div class="main__buttons">
+              <button class="button main__button-dice" type="button">Бросить кубик</button>
+              <button class="button main__button-pass" type="button">Передать ход</button>
+            </div>
+
+            <div class="main__player-2 opacity">
+              <h4 class="main__title">MACHINE</h4>
+              <span class="main__info">Всего очков: <span class="main__total-score-2">0</span></span>
+              <span class="main__info">За ход: <span class="main__current-score-2">0</span></span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
